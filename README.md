@@ -57,6 +57,8 @@ space-portfolio/
   |- components/
     |-- main/
     |-- sub/
+    |-- theme-provider.tsx
+    |-- theme-toggle.tsx
   |- config/
     |-- index.ts
   |- constants/
@@ -67,7 +69,14 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
+  |- analyze_image.py
+  |- apply_light_theme.py
+  |- check_video.py
   |- eslint.config.mjs
+  |- fix_accent_colors.py
+  |- fix_gradients.py
+  |- fix_hovers.py
+  |- get_color.py
   |- netlify.toml
   |- next.config.js
   |- package-lock.json
@@ -133,10 +142,11 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.5
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.5
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [eslint](https://www.npmjs.com/package/eslint): ^10.10.0
+- [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.3.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.2.0
 - [next](https://www.npmjs.com/package/next): 16.3.3
+- [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.6
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): 19.2.8
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
